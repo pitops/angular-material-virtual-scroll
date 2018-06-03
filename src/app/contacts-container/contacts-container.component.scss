@@ -1,0 +1,40 @@
+:host {
+
+
+  .contacts-container {
+    display: block;
+    margin-top: 45px;
+    height: 800px;
+  }
+
+  .headers {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: #EAEAEA;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    .contact-image {
+      width: 40px;
+    }
+
+    .contact-name {
+      margin-left: 10px;
+      width: 100px;
+    }
+
+    .contact-age {
+      width: 80px;
+    }
+
+    .contact-phone {
+      width: 200px;
+    }
+  }
+}

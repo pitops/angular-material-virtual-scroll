@@ -1,0 +1,43 @@
+:host {
+  display: block;
+  height: 64px;
+
+  .image {
+    background-image: url('https://api.adorable.io/avatars/285/abott@adorable.png');
+    height: 40px;
+    width: 40px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.8);
+    padding: 2px;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color: #EAEAEA;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+
+    span {
+      display: inline-block;
+      text-align: left;
+
+      &.name {
+        margin-left: 10px;
+        width: 100px;
+      }
+
+      &.age {
+        width: 80px;
+      }
+
+      &.phone {
+        width: 200px;
+      }
+    }
+  }
+}
